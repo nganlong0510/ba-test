@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .bg-ba-creative {
+        background-color: rgb(246, 244, 236);
+    }
+}
+
+@layer components {
+    .bg-main-content {
+        background-color: rgba(31, 44, 52, 1);
+    }
+    .text-color-ba-creative {
+        color: rgba(246, 244, 236, 1);
+    }
+}
